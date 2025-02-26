@@ -49,28 +49,19 @@ st.markdown("""
             border: 1px solid rgba(49, 51, 63, 0.2);
             width: 270px;
         }
-        /* Changer la couleur du texte en mode sombre */
-        html[data-theme="dark"] body {
-            color: white !important; /* Texte blanc pour le mode sombre */
-        }
-        /* Changer la couleur du texte en mode clair */
-        html[data-theme="light"] body {
-            color: black !important; /* Texte noir pour le mode clair */
-        }
-        /* Fond blanc pour l'application */
-        .stApp {
-            background-color: white;
-            color: #333;
-            font-family: 'Arial', sans-serif;
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: black;
+                color: white;
+            }
         }
 
-        /* Fond blanc pour la sidebar */
-        .css-1d391kg {
-            background-color: white !important;
-            color: #333 !important;
-            border-right: 2px solid #ddd !important;  /* Légère séparation */
+        @media (prefers-color-scheme: light) {
+            body {
+                background-color: white;
+                color: black;
+            }
         }
-
         /* Titres et sous-titres en bleu foncé */
         h1, h2, h3 {
             text-align: center;
