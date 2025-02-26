@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+matplotlib.pyplot
+seaborn
+requests 
+necessary
+streamlit.components.v1
+beautifulSoup4 
+pathlib 
