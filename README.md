@@ -26,26 +26,6 @@ Elengui Scrap est une application Streamlit intuitive permettant l'extraction, l
 ## Technologies utilisées
 - **Python** (Streamlit, Pandas, NumPy, Matplotlib, Seaborn, BeautifulSoup, Requests)
 
-## Installation
-1. **Cloner le dépôt**
-```bash
-    git clone https://github.com/votre-repo/ElenguiScrap.git
-    cd ElenguiScrap
-```
-
-2. **Créer un environnement virtuel et installer les dépendances**
-```bash
-    python -m venv env
-    source env/bin/activate  # macOS/Linux
-    env\Scripts\activate  # Windows
-    pip install -r requirements.txt
-```
-
-3. **Lancer l’application**
-```bash
-    streamlit run app.py
-```
-
 ## Utilisation
 1. Sélectionner une option dans la barre latérale : **Accueil, Scrap, Datasets ou Visualisation**.
 2. Configurer les paramètres de scraping ou télécharger un dataset.
@@ -54,7 +34,3 @@ Elengui Scrap est une application Streamlit intuitive permettant l'extraction, l
 
 ## Contribution
 Les contributions sont les bienvenues ! Forkez ce dépôt et soumettez vos Pull Requests.
-
-## Licence
-Ce projet est sous licence **MIT**.
-
