@@ -199,7 +199,7 @@ elif option == "Datasets":
     st.title("Fenetres datasets")
     st.write("""Explorez une sélection de datasets prêts à l'emploi pour tester vos analyses et visualisations.
         Ces jeux de données couvrent divers domaines et vous permettent de vous entraîner. Téléchargez un dataset et commencez votre exploration !""")
-    path = Path("C:/Users/PC/Documents/Homework/Elengui_scrap_app/data")
+    path = Path("./data")
     csv_files = [f.name for f in path.glob("*.csv")]
     dtwnt = st.selectbox("Quel jeu de données voulez-vous télécharger ?", csv_files)
     if dtwnt:  
